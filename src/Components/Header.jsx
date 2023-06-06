@@ -14,7 +14,7 @@ const Header = () => {
             height={70}
           />
           {/* Title Content */}
-          <p className="h1 me-5">Html Details</p>
+          <p className="h1 me-5 text-capitalize">About Internet </p>
         </div>
       </div>
     </div>
