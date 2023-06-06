@@ -1,0 +1,57 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Aclonica&family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Aclonica&display=swap');
+
+:root {
+    /* Define a variable for color */
+    --main-background: #ffffff;
+    /* Define a variable for background */
+    --main-content: 'Lora', serif;
+    /* Define a variable for font family */
+    --main-header: 'Pacifico', "cursive";
+    /* Body BackGround Color */
+    --main-body-bg-color: #171717;
+    /* font color */
+    --main-body-font-color: white;
+    /* content section font color */
+    --main-content-color: white
+}
+
+body {
+    background-color: var(--main-body-bg-color) !important;
+    color: var(--main-body-font-color);
+    width: 100%;
+    opacity: 1;
+
+}
+
+.container {
+    max-width: 600px !important;
+}
+
+.row {
+    max-width: 600px !important;
+    background-color: var(--main-background);
+}
+
+.Header-section {
+    font-family: var(--main-header) !important;
+}
+
+.content-section {
+    /* font-family: var(--main-content); */
+    color: var(--main-content-color);
+}
+
+.content-section p{
+    font-size: 20px;
+}
+
+li{
+    margin-bottom: 20px;
+}
