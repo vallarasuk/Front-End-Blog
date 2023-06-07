@@ -8,7 +8,7 @@ const Header = () => {
         <div className="col-12 d-flex justify-content-between align-items-center shadow py-3 ">
           {/* Logo Container */}
           <img
-            src="https://icon-library.com/images/frontend-icon/frontend-icon-21.jpg"
+            src="https://icon-library.com/images/url-icon-png/url-icon-png-12.jpg"
             alt="Logo"
             width={70}
             height={70}
